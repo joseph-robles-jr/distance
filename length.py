@@ -87,5 +87,5 @@ start_node = 'CA'
 end_node = 'ME'
 path, distance = dijkstra(graph, start_node, end_node)
 
-print(f"Shortest path: {path}")
+print(f"Shortest path:\n {path}")
 print(f"Total distance: {distance}")
