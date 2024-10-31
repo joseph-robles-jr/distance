@@ -30,7 +30,7 @@ def dijkstra(graph, start, end):
     return path, distances[end]
 
 # Example graph structure with US states. The node is on the left, the distance to defined nodes in on the right.
-# Should be about 3400 when inputer correctly and run.
+# Should be about 3400 when inputed correctly and run.
 graph = {
     'WA': {'OR': 160, 'ID': 619}, 
     'OR': {'WA': 160, 'CA': 535, 'NV': 663, 'ID': 441},
